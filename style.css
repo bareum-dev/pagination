@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  border: 1px solid red;
+}
+
+.posts article {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.pagination ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pagination__item {
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.pagination__item.active {
+  color: red;
+}
